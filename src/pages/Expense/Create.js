@@ -35,7 +35,7 @@ const Create = () => {
   };
 
   return (
-    <div className="w-full max-w-sm mx-auto p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-full  mx-auto p-4 bg-white border border-gray-200 rounded-lg ">
       <h1>Add New Expense</h1>
       <form className="p-4 md:p-5" onSubmit={createExpense}>
         <div className="grid gap-4 mb-4 grid-cols-2">
@@ -106,7 +106,7 @@ const Create = () => {
               clipRule="evenodd"
             />
           </svg>
-          Add new expense
+          submit
         </button>
       </form>
     </div>
